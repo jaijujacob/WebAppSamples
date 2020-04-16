@@ -1,4 +1,4 @@
-// alert("inside");
+alert("inside");
 var button = document.getElementById("enter");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
@@ -28,3 +28,5 @@ function createListAfterKeypress(event) {
 button.addEventListener('click', createListAfterClick);
 input.addEventListener('keypress', createListAfterKeypress);
 
+var btnNew = document.getElementById("buttonOne");
+btnNew.addEventListener("click", function () {console.log('Button Test');})

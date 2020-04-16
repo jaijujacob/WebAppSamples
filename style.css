@@ -1,0 +1,49 @@
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p {
+	color: #D46A6A;
+	border: 1px solid rgba(20, 34, 120, 0.1);
+	text-align: left;
+	cursor: pointer;
+}
+
+img {
+	float: left;
+}
+
+p {
+	color: pink;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 1px dashed #cccccc;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background-color: rgba(0, 0, 255, 0.1);
+}
+
+#div1:hover {
+	background-color: rgba(255, 0, 255, 0.1);
+}
+
+#div2 {
+	background-color: rgba(255, 0, 255, 0.1);
+}

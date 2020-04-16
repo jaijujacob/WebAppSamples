@@ -28,3 +28,5 @@ function createListAfterKeypress(event) {
 button.addEventListener('click', createListAfterClick);
 input.addEventListener('keypress', createListAfterKeypress);
 
+var tst = document.getElementById("Test");
+tst.addEventListener("click", function(){console.log('test');})
